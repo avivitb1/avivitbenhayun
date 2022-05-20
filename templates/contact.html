@@ -5,82 +5,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FOOD</title>
-        <style>
-          * {
-            box-sizing: border-box;
-          }
-      
-          body {
-            font-family: Arial, Helvetica, sans-serif; 
-          }
-      
-          header {
-          
-            padding: 60px;
-            text-align: center;
-            background: #ee83db;
-            color: rgb(0, 0, 0);
-            font-size: 30px;
-          }
-          nav {
-            float: left;
-            width: 30%;
-            background: rgb(245, 194, 233);
-            padding: 100px;
-            font-size: 20px;
-            text-align:left;
-          }
-          nav ul {
-            list-style-type:none;
-            padding: 0;
-          }
-      
-          article {
-            float: left;
-            padding: 20px;
-            width: 70%;
-            background-color: #f1f1f1;
-            height:max-content; 
-          }
-      
-          content {padding:20px;}
-              div {
-              background-color: lightgrey;
-              width: 300px;
-              border: 15px solid rgb(132, 9, 124);
-              padding: 50px;
-              margin: 20px;
-          }
-          footer {
-              position:fixed;
-              left: 0;
-              bottom: 0;
-              width: 100%;
-              background-color: rgb(139, 137, 137);
-              color: white;
-              text-align: center;
-              padding: 10px;
-          }
-        </style>
+        <link rel="stylesheet" href="../static/CSShomepage.css">
+        <script type = "text/javascript" src="../static/JShomepage.js"></script>  
+        
+             
     </head>
     <body>
-        <header>
-            <h1>FOOD LOVER</h1>
-            <a href="contact.html">Contact</a>
-            <a href="homepage.html">Home Page</a>
-            <a href="#">About</a>
-        </header>
+  
+      <div class="header">
+        <div id="had">
+          <h2>FOOD LOVER</h2>
+        </div>
+          <div class="links">
+          <a href="contact.html">Contact  </a>
+          <a href="homepage.html">Home Page  </a>
+          <a href="#">About  </a>
+        </div>
+      </div>
+      
+        <div id="container"></div>
         <section>
-          <nav>
-            <ul>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">FaceBook</a></li>
-              <li><a href="#">Twitter</a></li>
-            </ul>
-          </nav>
+         
           
+            <nav>
+              <div class="links">
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">FaceBook</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </div>
+            </nav>
+          </div>
+          
+      
           <article>
-            <div>
+            <div class="a">
               רוצים לספר לנו על מסעדה שביקרתם בה לאחרונה, או על אוכל טעים ומזין שנתקלתם בו,
           
           אולי לספר לו על שווקים מרחבי העולם
@@ -89,6 +49,7 @@
           
           אתם מזומנים ליצור עמנו קשר בכל שאלה, תהייה וסתם לשתף!
           </div>
+          
           <img src="../static/contactPIC.jpeg" alt="contact" width="450" height="200">
           <form action="URL" method="post">
 
